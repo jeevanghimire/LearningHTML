@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <title>Document formatting </title>
-</head>
-<body>
-  
-
-
-</body>
+  <head>
+    <title>Form Elements</title>
+  </head>
+  <body>
+    <h3>Text Box</h3>
+    <form>
+      First Name:<input type="text" name="firstname" /><br />
+      Last name:<input type="text" name="lastname" /><br />
+    </form>
+    <h3>Text for password</h3>
+    <form action="password">
+      password:<input type="password" name="password" /><br />
+    </form>
+    <h3>Radio buttons</h3>
+    <form action="">
+      <input type="radio" name="sex" value="male" />Male<br />
+      <input type="radio" name="sex" value="female" />Female<br />
+    </form>
+    <h3>Checkboxes</h3>
+    <form action="">
+      <input type="checkbox" name="subject" value="Computer" />Computer<br />
+      <input type="checkbox" name="Subject" value="Hotel Management" />Hotel
+      Management<br />
+    </form>
+    <h3>Submit</h3>
+    <form action="input" action="html_form_action.asp" method="get">
+      Username: <input type="text" name="username" />
+      <input type="Submit" value="Submit" />
+    </form>
+    <h3>Dropdown menu</h3>
+    <form action="">
+      <select name="Stream Of Subject">
+        <option value="Science">Science</option>
+        <option value="Management">Management</option>
+        <option value="Humanities">Humanities</option>
+        <option value="Education">Education</option>
+      </select>
+    </form>
+  </body>
 </html>
